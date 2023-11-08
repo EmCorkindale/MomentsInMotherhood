@@ -1,0 +1,50 @@
+{
+    "Groups": [
+        {
+            "type": "Parenting Group",
+            "properties": {
+                "Location": "5 Twigger Street, Addington",
+                "Name": "The International Parenting Group English Class",
+                "Description": "The International Parenting Group Playgroup runs each Monday from 2-3.30pm at 5 Twigger St Addington. Caregivers and babies welcome, no need to register, no cost to join and there is a play area available for children. ",
+                "Time": "Monday 1:00pm - 2:00pm"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.54644518045091,
+                    172.60532954057362
+                ]
+            }
+        },
+        {
+            "type": "Walking Group",
+            "properties": {
+                "Location": "Various Locations",
+                "Name": "Canterbury Parents Walking Group",
+                "Description": "Canterbury Parents Walking Group is fun for all ages. Check the Canterbury Plunket Facebook Page for locations.",
+                "Time": "Wednesday 9:30am"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.53429162640023, 172.62012103988127
+                ]
+            }
+        },
+        {
+            "type": "Playgroup",
+            "properties": {
+                "Location": "Fendalton Plunket",
+                "Name": "Fendalton Asian Plunket Playgroup",
+                "Description": "Tuesdays 1pm-3pm (under 6 months) Wednesdays 10am-12pm (over 6 months). Please note bookings are essential",
+                "Time": "Tuesdays 1pm-3pm & Wednesdays 10am-12pm"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.518949811797455, 172.5919773415919
+                ]
+            }
+        }
+    ]
+}
