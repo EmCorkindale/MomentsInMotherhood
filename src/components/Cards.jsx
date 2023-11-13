@@ -60,7 +60,7 @@ export default function Cards() {
                     <Card sx={{ maxWidth: 345, minHeight: 550 }}>
                         <CardMedia component="img"
                             height="194"
-                            image='../src/assets/drawing.jpg'
+                            image='../src/assets/drawing4.jpg'
                             alt="line drawing" />
                         <h3>Newborn to three months</h3>
                         <ul><li>smiles</li> <li>holds head up</li><li>cries when there’s a loud noise</li><li>enjoys looking at faces</li></ul>
@@ -102,7 +102,7 @@ export default function Cards() {
                     <Card sx={{ maxWidth: 345, minHeight: 550 }}>
                         <CardMedia component="img"
                             height="194"
-                            image='../src/assets/drawing.jpg'
+                            image='../src/assets/drawing2.jpg'
                             alt="line drawing" />
                         <h3>Three to six months</h3>
                         <ul><li>rolls over</li> <li>reaches and grasps</li><li>chews on hands and toys</li><li>turns towards sounds and voices</li><li>responds to sound by making noises</li><li>reaches out for toys </li></ul>
@@ -181,7 +181,7 @@ export default function Cards() {
                     <Card sx={{ maxWidth: 345, minHeight: 550 }}>
                         <CardMedia component="img"
                             height="194"
-                            image='../src/assets/drawing.jpg'
+                            image='../src/assets/drawing3.jpg'
                             alt="line drawing" />
                         <h3>Twelve to fifteen months</h3>
                         <ul><li>will hug you</li> <li>can use a spoon</li><li>will try and help you dress them</li><li>can follow simple instructions</li><li>can drink from a cup</li></ul>
@@ -215,7 +215,7 @@ export default function Cards() {
                     <Card sx={{ maxWidth: 345, minHeight: 550 }}>
                         <CardMedia component="img"
                             height="194"
-                            image='../src/assets/drawing.jpg'
+                            image='../src/assets/drawing4.jpg'
                             alt="line drawing" />
                         <h3>Fifteen to eighteen months</h3>
                         <ul><li>understands their own name</li> <li>may be walking on their own</li><li>can sit in a small chair</li><li>can pick up very small objects</li></ul>

@@ -73,8 +73,8 @@
 
 
 .filteredGroups {
-  margin-top: 10px;
-  margin-left: 50px;
+  margin-top: 0px;
+  margin-left: 60px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -90,7 +90,7 @@ margin-left:  20px; ;
   border-width: thin;
   display: flex;
   justify-content: center;
-  margin: 20px;
+  margin-left: 40px;
   padding: 10px;
 }
 
