@@ -1,5 +1,5 @@
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import * as groupData from "../Data/Groups.json";
+import * as groupData from "../../Data/Groups.json";
 import { Icon } from "leaflet";
 import { useState } from 'react';
 

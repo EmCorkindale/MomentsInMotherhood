@@ -1,4 +1,4 @@
-import SubscriptionForm from "../components/SubscriptionForm";
+import SubscriptionForm from "../components/Home/SubscriptionForm";
 
 export function Home() {
 
@@ -12,7 +12,7 @@ export function Home() {
                 <p>Welcome to Moments in Motherhood, your landing page for information and support for mother and pēpi.</p>
             </div>
             <div className="subscriptionForm">
-                <SubscriptionForm/>
+                <SubscriptionForm />
             </div>
         </div>
     )

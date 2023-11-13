@@ -2,13 +2,13 @@ import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import Suburbs from '../Data/SuburbsArray.json';
+import Suburbs from '../../Data/SuburbsArray.json';
 import { MenuItem } from '@mui/material';
 
 export default function SelectSuburb(props) {
-    
+
     return (
-        <Box sx={{ minWidth: 500, mr:20 }}>
+        <Box sx={{ minWidth: 500, mr: 20 }}>
             <FormControl fullWidth>
                 <InputLabel variant="standard" htmlFor="uncontrolled-native">
                     Select your suburb..

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useFormInput } from '../Hooks/useFormInput';
+import { useFormInput } from '../../Hooks/useFormInput';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import { Button } from '@mui/material';
@@ -22,10 +22,10 @@ export default function SubscriptionForm() {
             noValidate
             autoComplete="off"
         >
-            <TextField id="outlined-basic" label="First name:" variant="outlined" input={{...nameInputProps}} sx={{ minWidth: 500, mr:20 }}/>
+            <TextField id="outlined-basic" label="First name:" variant="outlined" input={{ ...nameInputProps }} sx={{ minWidth: 500, mr: 20 }} />
 
-            <TextField id="filled-basic" label="Email:" variant="outlined" input={{...emailInputProps}} sx={{ minWidth: 500, mr:20 }}/>
-            <Button variant="outlined" onClick={handleSubscribe} sx={{ minWidth: 500, mr:20 }} >Subscribe to our Newsletter</Button>
+            <TextField id="filled-basic" label="Email:" variant="outlined" input={{ ...emailInputProps }} sx={{ minWidth: 500, mr: 20 }} />
+            <Button variant="outlined" onClick={handleSubscribe} sx={{ minWidth: 500, mr: 20 }} >Subscribe to our Newsletter</Button>
             <div>{status}</div>
         </Box>
 

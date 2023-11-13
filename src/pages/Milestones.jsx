@@ -1,7 +1,7 @@
 // import ReactCardSlider from 'react-card-slider-component';
 // import sliderClick from 'react-card-slider-component';
-import BasicSelect from '../components/BasicSelect';
-import Cards from '../components/Cards';
+import BasicSelect from '../components/Milestones/BasicSelect';
+import Cards from '../components/Milestones/Cards';
 
 
 

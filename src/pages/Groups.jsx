@@ -1,5 +1,5 @@
-import Map from '../components/Map';
-import SelectSuburb from '../components/SelectSuburb';
+import Map from '../components/Groups/Map';
+import SelectSuburb from '../components/Groups/SelectSuburb';
 import { useState } from 'react';
 import GroupsData from '../Data/Groups.json';
 
