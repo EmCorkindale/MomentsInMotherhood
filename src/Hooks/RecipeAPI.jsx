@@ -11,7 +11,7 @@ export default function RecipeAPI() {
     
 
     useEffect(() => {
-        axios.get("https://api.edamam.com/api/recipes/v2?type=public&app_id=8e84a379&app_key=7fe22fc3eb88369a1e79fc4aaac0ebd7&ingr=1-100") // modify this URL to test the error case
+        axios.get("https://api.edamam.com/api/recipes/v2?type=public&app") // I have removed the key due to this being on a public git hub repository.
             .then(response => {
                 // object passed to dispatch holds all data needed for updating state: both type of update and associated data
                 dispatch({ type: "FETCH_SUCCESS", payload: response.data }) // dispatch calls reducer function and triggers re-render
