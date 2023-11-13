@@ -37,3 +37,4 @@ Axios for data fetching, and MUI for styling.
 
 How might you extend the features of your application in future?
 I would have liked a search feature for the recipes section, and a frequently visited pages section on the homepage.
+I also wanted pagination in my recipes page, but this was more difficult and time consuming then I thought.
