@@ -4,6 +4,7 @@
             "type": "Parenting Group",
             "properties": {
                 "Location": "5 Twigger Street, Addington",
+                "Suburb":"Addington",
                 "Name": "The International Parenting Group English Class",
                 "Description": "The International Parenting Group Playgroup runs each Monday from 2-3.30pm at 5 Twigger St Addington. Caregivers and babies welcome, no need to register, no cost to join and there is a play area available for children. ",
                 "Time": "Monday 1:00pm - 2:00pm"
@@ -20,6 +21,7 @@
             "type": "Walking Group",
             "properties": {
                 "Location": "Various Locations",
+                "Suburb":"City",
                 "Name": "Canterbury Parents Walking Group",
                 "Description": "Canterbury Parents Walking Group is fun for all ages. Check the Canterbury Plunket Facebook Page for locations.",
                 "Time": "Wednesday 9:30am"
@@ -35,6 +37,7 @@
             "type": "Playgroup",
             "properties": {
                 "Location": "Fendalton Plunket",
+                "Suburb":"Fendalton",
                 "Name": "Fendalton Asian Plunket Playgroup",
                 "Description": "Tuesdays 1pm-3pm (under 6 months) Wednesdays 10am-12pm (over 6 months). Please note bookings are essential",
                 "Time": "Tuesdays 1pm-3pm & Wednesdays 10am-12pm"
@@ -43,6 +46,134 @@
                 "type": "Point",
                 "coordinates": [
                     -43.518949811797455, 172.5919773415919
+                ]
+            }
+        },
+        {
+            "type": "Clothing Exchange",
+            "properties": {
+                "Location": "38 Portsmouth Street, Aranui",
+                "Suburb":"Aranui",
+                "Name": "Aranui Clothing Exchange",
+                "Description": "Come along and exchange clothing with other parents.",
+                "Time": "Monday 9:00am - 11:30am"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.510332093215325, 172.70101781349143
+                ]
+            }
+        },
+        {
+            "type": "Plunket Clinic",
+            "properties": {
+                "Location": "57 Kendall Ave, Avonhead",
+                "Suburb":"Avonhead",
+                "Name": "Kendal Plunket Clinic",
+                "Description": "Local plunket clinic.",
+                "Time": "Phone for an appointment."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.49802009927214, 172.5735350711638 
+                ]
+            }
+        },
+        {
+            "type": "Plunket Clinic",
+            "properties": {
+                "Location": "120 Conway Street, Barrington",
+                "Suburb":"Barrington",
+                "Name": "Barrington Plunket Clinic",
+                "Description": "Local plunket clinic.",
+                "Time": "Phone for an appointment."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.56134124620398, 172.62286188650856 
+                ]
+            }
+        },
+        {
+            "type": "Plunket Clinic",
+            "properties": {
+                "Location": "7 Belfast Road, Belfast",
+                "Suburb":"Belfast",
+                "Name": "Belfast Plunket Clinic",
+                "Description": "Local plunket clinic.",
+                "Time": "Phone for an appointment."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.4491387710027, 172.63036515767234 
+                ]
+            }
+        },
+        {
+            "type": "Plunket Clinic",
+            "properties": {
+                "Location": "149 Burwood Road, Burwood",
+                "Suburb":"Burwood",
+                "Name": "Burwood Plunket Clinic",
+                "Description": "Local plunket clinic.",
+                "Time": "Phone for an appointment."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.49014714883709, 172.68349858650853 
+                ]
+            }
+        },
+        {
+            "type": "Playgroup",
+            "properties": {
+                "Location": "16 Fern Drive, Halswell",
+                "Suburb":"Halswell",
+                "Name": "Halswell Plunket Playgroup",
+                "Description": "Plunket run playgroup for babies and toddlers.",
+                "Time": "Wednesday 9:30am - 11:30am"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.57684059124421, 172.56442951349143 
+                ]
+            }
+        },
+        {
+            "type": "Plunket Clinic",
+            "properties": {
+                "Location": "19 McCarthy Street, Hoon Hay",
+                "Suburb":"Hoon Hay",
+                "Name": "Halswell Plunket Playgroup",
+                "Description": "Local plunket clinic.",
+                "Time": "By appointment only"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.56368629988425, 172.59063302883618 
+                ]
+            }
+        },
+        {
+            "type": "Coffee Group",
+            "properties": {
+                "Location": "29 Tower St, Hornby",
+                "Suburb":"Hornby",
+                "Name": "Halswell Plunket Playgroup",
+                "Description": "Social coffee group for parents and children.",
+                "Time": "Wednesday 10:30am (school term only)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.54559444044, 172.5282785386772 
                 ]
             }
         }

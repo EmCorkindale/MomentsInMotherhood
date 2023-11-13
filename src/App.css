@@ -16,6 +16,91 @@
 }
 
 .leaflet-container {
-  width: 20%;
-  height: 20vh;
-  }
+  max-width: 40%;
+  max-height: 64vh;
+  margin-left: 140px;
+  margin-top: 10px;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+
+.homepage-bgimage {
+  background-image: url("../src/assets/drawing.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 75vh;
+}
+
+.heading {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+  color: #5B8C5A;
+}
+
+.heading h1 {
+  font-size: 50px
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+.PostList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.recipeBox {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.recipeBox img {
+  max-width: 100%;
+  height: auto;
+}
+.groups{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.filteredGroups {
+  margin-top: 10px;
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.selectSuburbDiv{
+margin-left:  20px; ;
+}
+
+.filteredGroupsBox{
+  max-width: 500px;
+  border-style: solid;
+  border-color: #5B8C5A;
+  border-width: thin;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+.filteredGroupsBox p{
+  text-align: justify;
+}
+
+.MuiBox-root{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}

@@ -6,10 +6,10 @@ import { useState } from 'react';
 export default function Map() {
   const [Group, setGroup] = useState(null);
   const thing = new Icon({
-    iconUrl: "./src/assets/leaf-green.png",
+    iconUrl: "./src/assets/geo-location.svg",
     iconSize: [25, 25]
   });
- 
+
 
   return (
     <MapContainer className="map" center={[-43.5320, 172.6306]} zoom={13} scrollWheelZoom={false}>
@@ -26,27 +26,18 @@ export default function Map() {
             console.log("jhgjhf", group)
           }}
           icon={thing}
-        />
+        >
+          <Popup>
+            <div>
+              <h2>{group.properties.Name}</h2>
+              <p>{group.properties.Location}</p>
+              <p>{group.properties.Description}</p>
+              <p>{group.properties.Time}</p>
+            </div>
+          </Popup>
+        </Marker>
       ))}
       {Group ? <p>{Group.properties.Name}</p> : null}
-      {Group && (
-        <Popup
-          position={[
-            Group.geometry.coordinates[0],
-            Group.geometry.coordinates[1]
-          ]}
-          onClose={() => {
-            setGroup(null);
-          }}
-        >
-          <div>
-            <h2>{Group.properties.Name}</h2>
-            <p>{Group.properties.Location}</p>
-            <p>{Group.properties.Description}</p>
-            <p>{Group.properties.Time}</p>
-          </div>
-        </Popup>
-      )}
     </MapContainer>
   );
 }

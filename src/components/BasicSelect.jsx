@@ -11,6 +11,7 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogActions from '@mui/material/DialogActions';
 
 import Typography from '@mui/material/Typography';
+import { Grid } from '@mui/material';
 
 function BasicSelect() {
   const [age, setAge] = React.useState('');
@@ -216,24 +217,24 @@ function BasicSelect() {
                 </ul>
               </Typography>
               <Typography gutterBottom>
-              By four to five years most kids: 
-              <ul>
-                <li>can understand most of what you say</li>
-                <li>can follow simple two to three step instructions like “can you find your shoes and put them on please?” </li>
-                <li>are more independent</li>
-                <li>can unscrew a lid from a jar </li>
-                <li>know their own gender and age </li>
-                <li>walk up and down stairs</li>
-                <li>know the names of some shapes and colours</li>
-                <li>can hold a pencil and copy some letters (by four years)</li>
-                <li>dress and undress on their own</li>
-                <li>use five to six word sentences or more</li>
-                <li>most people understand what your child says</li>
-                <li>enjoys listening to and telling stories.</li>
-              </ul>
+                By four to five years most kids:
+                <ul>
+                  <li>can understand most of what you say</li>
+                  <li>can follow simple two to three step instructions like “can you find your shoes and put them on please?” </li>
+                  <li>are more independent</li>
+                  <li>can unscrew a lid from a jar </li>
+                  <li>know their own gender and age </li>
+                  <li>walk up and down stairs</li>
+                  <li>know the names of some shapes and colours</li>
+                  <li>can hold a pencil and copy some letters (by four years)</li>
+                  <li>dress and undress on their own</li>
+                  <li>use five to six word sentences or more</li>
+                  <li>most people understand what your child says</li>
+                  <li>enjoys listening to and telling stories.</li>
+                </ul>
               </Typography>
               <Typography gutterBottom>
-              Children develop at different rates and there&apos;s a wide range of normal.
+                Children develop at different rates and there&apos;s a wide range of normal.
               </Typography>
             </DialogContent>
           </div>
@@ -244,33 +245,39 @@ function BasicSelect() {
   }
 
   return (
-    <Box sx={{ maxWidth: 120 }}>
-      <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">Age</InputLabel>
-        <Select
-          labelId="demo-simple-select-label"
-          id="demo-simple-select"
-          value={age}
-          label="Age"
-          onChange={handleChange}
-        >
-          <MenuItem value="0 - 3">0 - 3 months</MenuItem>
-          <MenuItem value="3 - 6">3 - 6 months</MenuItem>
-          <MenuItem value="6 - 12">6 - 12 months</MenuItem>
-          <MenuItem value="12 - 15">12 - 15 months</MenuItem>
-          <MenuItem value="15 - 18">15 - 18 months</MenuItem>
-          <MenuItem value="18 - 24">18 - 24 months</MenuItem>
-          <MenuItem value="3 - 5 years">3 - 5 years</MenuItem>
-        </Select>
-      </FormControl>
-      <Dialog open={openDialogue} onClose={handleCloseDialogue}>
-        <DialogTitle>{age}</DialogTitle>
-        <DialogContent>{getContents()}</DialogContent>
-        <DialogActions>
-          <Button onClick={handleCloseDialogue}>Close</Button>
-        </DialogActions>
-      </Dialog>
-    </Box>
+    <Grid container
+      spacing={0}
+      direction="column"
+      alignItems="center"
+      justifyContent="center">
+      <Box sx={{ minWidth: 400 }}>
+        <FormControl fullWidth>
+          <InputLabel id="demo-simple-select-label">Select your baby&apos;s age...</InputLabel>
+          <Select
+            labelId="demo-simple-select-label"
+            id="demo-simple-select"
+            value={age}
+            label="Age"
+            onChange={handleChange}
+          >
+            <MenuItem value="0 - 3">0 - 3 months</MenuItem>
+            <MenuItem value="3 - 6">3 - 6 months</MenuItem>
+            <MenuItem value="6 - 12">6 - 12 months</MenuItem>
+            <MenuItem value="12 - 15">12 - 15 months</MenuItem>
+            <MenuItem value="15 - 18">15 - 18 months</MenuItem>
+            <MenuItem value="18 - 24">18 - 24 months</MenuItem>
+            <MenuItem value="3 - 5 years">3 - 5 years</MenuItem>
+          </Select>
+        </FormControl>
+        <Dialog open={openDialogue} onClose={handleCloseDialogue}>
+          <DialogTitle>{age}</DialogTitle>
+          <DialogContent>{getContents()}</DialogContent>
+          <DialogActions>
+            <Button onClick={handleCloseDialogue}>Close</Button>
+          </DialogActions>
+        </Dialog>
+      </Box>
+    </Grid>
   );
 }
 export default BasicSelect
