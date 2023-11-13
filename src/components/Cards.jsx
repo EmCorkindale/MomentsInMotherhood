@@ -281,4 +281,4 @@ export default function Cards() {
             </Grid>
         </Box>
     )
-};
+}

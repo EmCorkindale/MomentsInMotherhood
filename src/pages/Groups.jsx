@@ -27,7 +27,7 @@ export function Groups() {
                                 </div>
                             ))
                         ) : (
-                            <p>No parent groups found in this suburb. Check the map fpr oher locations or selct a different suburb.</p>
+                            <p>No parent groups found in this suburb. Check the map for oher locations or selct a different suburb.</p>
                         )}
                     </div>
                 </div>
